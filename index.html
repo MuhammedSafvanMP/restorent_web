@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Navbar</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+        <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-md  bg-white text-dark p-2">
+        <div class="container-fluid p-4">
+            <a class="navbar-brand mr-4 fa-3x " href="#">
+                 Foodiee
+            </a>
+            <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <i class="fa-solid fa-bars nav-item"></i>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myCarousel">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Booking</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center ml-auto">
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="row m-0 justify-content-center"> <!-- Add justify-content-center class -->
+                            <div class="col pr-2">
+                                <input class="form-control form-control-lg " type="search" placeholder="Search" aria-label="Search">
+                            </div>
+                            <div class="col-auto pl-0">
+                                <button class="btn btn-warning btn-lg" type="submit">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <a class="nav-link" href="#">
+                    <i class="fas fa-bell text-white fs-3 text-dark"><sup class="text-white bg-danger rounded-circle p-1 fa-1x">10+</sup></i>
+                </a>
+                <a class="nav-link" href="#">
+                    <img src="./src/img/user.jpg" class="rounded-circle" alt="User Image" width="70" height="70">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Include Bootstrap JavaScript (4.5.2) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    
+    
+    
+</body>
+</html>
