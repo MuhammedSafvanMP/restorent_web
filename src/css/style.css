@@ -1,3 +1,16 @@
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Poppins:wght@200&family=Roboto+Slab:wght@400;500&display=swap');
+
+  
+h1{  
+    color: purple;
+      font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -18,3 +31,4 @@
     max-width: 100%;
     height: auto;
 }
+
