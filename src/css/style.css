@@ -6,3 +6,15 @@
 .nav-item{
     font-size: 1.3rem;
 }
+.owl-item {
+    padding: 10px; /* Remove margin to control the gap between items */
+}
+.item {
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
+    text-align: center; /* Center the content */
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+}
